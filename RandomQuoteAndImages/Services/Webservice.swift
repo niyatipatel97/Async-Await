@@ -38,11 +38,11 @@ class Webservice {
     func getRandomImage(id: Int) async throws -> RandomImage {
         
         guard let url = Constants.Urls.getRandomImageUrl() else {
-                   throw NetworkError.badUrl
+            throw NetworkError.badUrl
         }
         
         guard let randomQuoteUrl = Constants.Urls.randomQuoteUrl else {
-                   throw NetworkError.badUrl
+            throw NetworkError.badUrl
         }
         
         async let (imageData, _) = URLSession.shared.data(from: url)

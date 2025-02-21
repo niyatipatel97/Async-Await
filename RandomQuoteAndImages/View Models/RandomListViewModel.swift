@@ -21,17 +21,14 @@ class RandomImageListViewModel: ObservableObject {
             try await withThrowingTaskGroup(of: (Int, RandomImage).self) { group in
                 
                 for id in ids {
-                    
                     group.addTask {
                         return (id, try await webservice.getRandomImage(id: id))
                     }
                 }
-                
                 for try await (_, randomImage) in group {
                     randomImages.append(RandomImageViewModel(randomImage: randomImage))
                 }
             }
-            
         } catch {
             print(error)
         }
