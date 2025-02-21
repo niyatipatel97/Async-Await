@@ -2,6 +2,11 @@
 
 ## Async/Await, Actors, Async-Let, Task Groups, Unstructured Concurrency
 
+##App Preview
+
+[Click to see app preview](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
+![](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
+
 This project demonstrates the use of Swift's `async` and `await` features to handle asynchronous programming in an iOS application. It includes examples of fetching data from a remote API, performing background tasks, and updating the UI smoothly.
 
 ## Features
@@ -28,9 +33,6 @@ This project demonstrates the use of Swift's `async` and `await` features to han
 - Run the app or tap the reload data button on top right corner to see how async-await handles API calls.
 - Modify the `Webservice.swift` file to experiment with different async operations.
 
-##Demo
-[Click to see app preview](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
-![](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
 
 ## Example Code
 ```swift
