@@ -29,8 +29,8 @@ This project demonstrates the use of Swift's `async` and `await` features to han
 - Modify the `Webservice.swift` file to experiment with different async operations.
 
 ##Demo
-![Async-Await Demo](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
-
+[Click to see app preview](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
+![](https://drive.google.com/file/d/1gdEw_El3V-jbzdnddiO-T69qtBSB6rsJ/view?usp=sharing)
 
 ## Example Code
 ```swift
